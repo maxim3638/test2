@@ -1,27 +1,27 @@
-hello = "Hello World"
-name = "Maxim"
-lastname = "<Bortnik"
-age = 16
+hello = "Hello World" #створення зміної
+name = "Maxim" #створення зміної
+lastname = "<Bortnik" #створення зміної
+age = 16 #створення зміної
 
-print(hello)
-print(name)
-print(lastname)
-print(age)
+print(hello) #Виведе значення змінної
+print(name) #Виведе значення змінної
+print(lastname) #Виведе значення змінної
+print(age) #Виведе значення змінної
 
-print(type(hello))
-print(type(name))
-print(type(lastname))
-print(type(age))
+print(type(hello)) #Виведе значення змінної
+print(type(name)) #Виведе значення змінної
+print(type(lastname)) #Виведе значення змінної
+print(type(age)) #Виведе значення змінної
 
-count_int = 0 #лічильники
-count_str = 0
-count_bool = 0
-count_set = 0
-count_list = 0
-count_tuple = 0
-count_float = 0
-lst_notnull = []
-max_value = -1
+count_int = 0 #Лічильник для підрахунку цілих чисел (тип int).
+count_str = 0 #Лічильник для підрахунку рядків (тип str)
+count_bool = 0 #Лічильник для підрахунку булевих значень (True або False, тип bool).
+count_set = 0 #Лічильник для підрахунку множин (тип set).
+count_list = 0 #Лічильник для підрахунку списків (тип list).
+count_tuple = 0 #Лічильник для підрахунку кортежів (тип tuple).
+count_float = 0 #Лічильник для підрахунку чисел з плаваючою крапкою (тип float).
+lst_notnull = [] 
+max_value = -1 
 types_count = {str, int, bool, set, list, tuple, float}#список зміних
 lst_count_types = [count_set, count_float, count_tuple, count_list, count_bool, count_str, count_int]#список лічильників
 lst_name_type = ['set', 'float', 'tuple', 'list', 'bool', str, int]#список назв
